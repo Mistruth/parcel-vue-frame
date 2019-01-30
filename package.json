@@ -4,9 +4,25 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "parcel src/index.html"
+    "serve": "parcel public/index.html",
+    "build": "parcel build public/index.html",
+    "watch": "parcel watch public/index.html"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.5.22",
+    "vue-hot-reload-api": "^2.3.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.5.1",
+    "autoprefixer": "^9.4.7",
+    "babel-polyfill": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "cssnano": "^4.1.8",
+    "less": "^3.9.0",
+    "postcss-modules": "^1.4.1",
+    "vue-template-compiler": "^2.5.22"
+  }
 }
